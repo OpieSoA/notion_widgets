@@ -38,6 +38,7 @@ button:focus {
 .clock-container {
   background-color: #9EFEFF; 
   width: 250px;
+  height: 315px;
   border-radius: 20px;
   padding: 30px;
   box-shadow: 10px 10px #27F2F5;
@@ -84,13 +85,13 @@ button:focus {
 /* Timer Length Controls */
 
 .length-container {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
 }
 
 .inc-dec-btn-container {
-  margin: 10px auto;
+  margin: 1px auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -102,7 +103,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid #9EFEFF;
+  /* border: 2px solid #9EFEFF; */
   padding: 10px;
   border-radius: 10px;
   width: 38%;
